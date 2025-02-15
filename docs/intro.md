@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# no mames
 
-Let's discover **Docusaurus in less than 5 minutes**.
+acaso **ya funcionó?**.
 
 ## Getting Started
 
