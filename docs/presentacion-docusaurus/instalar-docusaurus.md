@@ -12,9 +12,6 @@ Docusaurus es un framework de documentación basado en React. Sigue estos pasos 
 Antes de usar Docusaurus, asegúrate de tener:
 - [Node.js](https://nodejs.org/) v16 o superior
 - [Yarn](https://yarnpkg.com/)
-- 
-
-
 
 ## 🚀 Instalación de yarn
 Para instalar Docusaurus, ejecuta el siguiente comando en tu terminal de git:
@@ -37,13 +34,11 @@ To address all issues, run:
   npm audit fix
 
 Run `npm audit` for details.
-
 ```
 
 ### Corrobora que se haya instalado con:
 ```bash
 yarn --version
-
 ```
 
 ## 🔧 Construcción y despliegue
@@ -70,7 +65,7 @@ git add -A
 
 ### Comprometer la transacción:
 ```bash
-git commit -m "Esto es un mensjae ejemplo"
+git commit -m "Esto es un mensaje ejemplo"
 ```
 
 ### Enviar la transacción :
