@@ -79,19 +79,19 @@ Docusaurus estará disponible en [`http://localhost:3000/pruebaDocusaurus`](http
 Ahorita para acceder a las páginas prueba, debes seleccionar **Tutorial** en la barra de navegación.
  
 ## 🔧 Actualización de la documentación
-Dentro de la carpeta docs puedes encontrar los archivos de las páginas **.md** o **.mdx**, los cuales deberían de ser apartados de la documentación y en la carpeta. Las actualizaciones se hacen con commits siguiendo los siguientes pasos.
+Dentro de la carpeta docs puedes encontrar los archivos de las páginas `.md` o `.mdx`, los cuales deberían de ser apartados de la documentación y en la carpeta. Las actualizaciones se hacen con commits siguiendo los siguientes pasos.
 
 ### Añadir todos los archivos
 ```bash
 git add -A
 ```
 
-### Comprometer la transacción
+### Agregar título al commit
 ```bash
 git commit -m "Esto es un mensaje ejemplo"
 ```
 
-### Enviar la transacción
+### Enviar el commit al repositorio remoto
 ```bash
 git push
 ```
