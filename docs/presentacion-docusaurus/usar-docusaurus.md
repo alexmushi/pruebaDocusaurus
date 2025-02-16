@@ -1,4 +1,10 @@
-# Cómo utilizar Docusaurus
+---
+title: Cómo Utilizar Docusaurus
+sidebar_label: Cómo Utilizar Docusaurus
+slug: /guia-docusaurus
+---
+
+# 📌 Cómo Utilizar Docusaurus
 
 Docusaurus es una herramienta que podemos utilizar para la documentación, pues tiene control de versiones y una barra de búsqueda global. Usarlo es tan simple como hacer commits a un repo con carpetas y archivos de Markdown.
 

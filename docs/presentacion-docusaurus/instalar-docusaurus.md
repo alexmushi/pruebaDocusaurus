@@ -1,10 +1,10 @@
 ---
 title: Instalación de Docusaurus
-sidebar_label: Instalación
+sidebar_label: Instalación de Docusaurus
 slug: /instalacion-docusaurus
 ---
 
-# 📌 Instalación de la documentación con Docusaurus
+# 📌 Instalación de Docusaurus en Ambiente Local
 
 Docusaurus es un framework de documentación basado en React. Sigue estos pasos para instalarlo y configurarlo en tu ambiente de desarrollo.
 
@@ -24,7 +24,7 @@ npm install --global yarn
 
 Debes de ver el siguiente mensaje:
 
-```bash
+```
 up to date, audited 766 packages in 3s
 
 94 packages are looking for funding
@@ -46,12 +46,14 @@ yarn --version
 
 ## 🔧 Construcción y despliegue
 Para construir por primera vez el proyecto en tu ambiente, ejecuta el siguiente comando en **GitBash**:
+
 ```bash
 GIT_USER=tu_usuario yarn deploy
 ```
 
 ## 🎯 Ejecución del servidor local
 Después de la instalación, en tu **terminal** escribe:
+
 ```bash
 npm start
 ```
