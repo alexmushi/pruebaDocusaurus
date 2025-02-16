@@ -16,22 +16,22 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4  # Usar la última versión estable
+      uses: actions/checkout@v4
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4  # Usar la última versión estable
+      uses: actions/setup-node@v4
       with:
-        node-version: '20'  # Especifica la versión de Node.js
-        cache: 'yarn'      # Cachear dependencias de Yarn para acelerar las builds
+        node-version: '20'
+        cache: 'yarn'  # Keep this for Yarn
 
     - name: Install dependencies
-      run: yarn install --frozen-lockfile # Instala las dependencias
+      run: yarn install --frozen-lockfile  # Keep this for Yarn
 
     - name: Build website
-      run: yarn build  # Construye el sitio estático
+      run: yarn build   # Keep this for Yarn
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3  # Acción dedicada para GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}  # Usa el token de GitHub
-        publish_dir: ./build    # Directorio donde se encuentra el sitio construido
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
