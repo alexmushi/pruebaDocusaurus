@@ -30,4 +30,4 @@ jobs:
       run: yarn build   # Keep this for Yarn
 
     - name: Deploy to GitHub Pages
-      run: GIT_USER=your_github_username yarn deploy
+      run: GIT_USER=alexmushi yarn deploy
