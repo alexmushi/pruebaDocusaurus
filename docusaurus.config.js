@@ -80,7 +80,7 @@ const config = {
         title: 'PIXEL.IT',
         logo: {
           alt: 'Logo de PIXEL.IT',
-          src: 'img/pixelit-color-logo.svg',
+          src: 'img/pixelit-color-logo.svg'
         },
         items: [
           {
@@ -140,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PIXEL.IT. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
