@@ -30,4 +30,7 @@ jobs:
       run: yarn build   # Keep this for Yarn
 
     - name: Deploy to GitHub Pages
-      run: GIT_USER=alexmushi yarn deploy
+      env:
+        GIT_USER: ${{ secrets.GIT_USER }}
+        USE_SSH: false
+      run: yarn deploy
