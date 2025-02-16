@@ -81,16 +81,16 @@ Para incluir emojis, existen dos maneras: puedes pegar el emoji directamente o p
 ## Imágenes
 Para incluir imágenes, debes seguir el siguiente proceso:
 
-1. Asegurar que el archivo de la imágen está en `build/assets/images`
+1. Asegurar que el archivo de la imágen está en `static/img`
 2. Utilizar un signo de exclamación antes de poner el path de la imágen dentro del repositorio entre paréntesis
-    - Lo más probable es que el path sea `../../build/assets/images/nombre-de-la-imagen`
+    - Lo más probable es que el path sea `../../static/img/nombre-de-la-imagen`
     - Puedes agregar alt text entre brackets antes del path
     - También puedes agregar un título (que aparece al hacer hover) entre comillas `""` después del path
 
-![Ejemplo de imagen](../../build/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg "Dinosaurios!")
+![Ejemplo de imagen](../../static/img/docusaurus-social-card.jpg "Ejemplo")
 
 ```
-![Ejemplo de imagen](../../build/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg "Dinosaurios!")
+![Ejemplo de imagen](../../static/img/docusaurus-social-card.jpg "Ejemplo")
 ```
 
 ## Videos
