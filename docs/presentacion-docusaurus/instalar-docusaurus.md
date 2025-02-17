@@ -6,102 +6,87 @@ slug: /instalacion-docusaurus
 
 # 📌 Instalación de Docusaurus en Ambiente Local
 
-Docusaurus es un framework de documentación basado en React. Sigue estos pasos para instalarlo y configurarlo en tu ambiente de desarrollo.
+Docusaurus es un framework de documentación basado en React. Sigue estos pasos para instalarlo y configurarlo en tu ambiente de desarrollo.Usarlo es tan simple como hacer commits a un repo con carpetas y archivos de Markdown.
 
 ## 💡 Requisitos previos
 Antes de usar Docusaurus, asegúrate de tener:
 - [Node.js](https://nodejs.org/) v16 o superior
-- [Yarn](https://yarnpkg.com/)
-
-## 🚀 Instalación de yarn
-Para instalar Docusaurus, ejecuta los siguientes comando en **GitBash**:
 
 
-### Usando `npm`
-```bash
-npm install --global yarn
-```
 
-Debes de ver el siguiente mensaje:
+## 🎯 Flujo de Trabajo Básico
 
-```
-up to date, audited 766 packages in 3s
 
-94 packages are looking for funding
-  run `npm fund` for details
+    *   **Clonar el Repositorio:**
+        ```bash
+        git clone https://github.com/alexmushi/pruebaDocusaurus.git
+        cd pruebaDocusaurus
+        ```
 
-5 vulnerabilities (2 moderate, 2 high, 1 critical)
+    *   **Crear una branch:**  Probablemente será buena idea crear nuevas branches cada vez que se agregue algo nuevo (substancial), para que haya alguien que cree el documento y alguien que lo revise
+        ```bash
+        git checkout -b mi-nueva-caracteristica
+        ```
 
-To address all issues, run:
-  npm audit fix
+    *   **Escribir/Editar Documentación:**
+        *   Los archivos de documentación están en la carpeta `docs`.
+        *   Usa Markdown (`.md`) o MDX (`.mdx` es para agregar componentes de React).
+        *   Los archivos están organizados en carpetas, podemos definir una estructura desde el inicio
+        *  Se pueden editar en cualquier IDE, o incluso pueden hacer primero el documento en word si no les gusta el MD y le piden a chat que lo traduzca
 
-Run `npm audit` for details.
-```
+    *   **Ver los Cambios Localmente:**
 
-Corrobora que se haya instalado con:
+          * En tu **terminal** escribe:
 
-```bash
-yarn --version
-```
+          ```bash
+          npm start
+          ```
 
-## 🔧 Construcción y despliegue
-Para construir por primera vez el proyecto en tu ambiente, ejecuta el siguiente comando en **GitBash**:
+         * Se van a desplegar varios mensajes. Al final, deberías ver:
 
-```bash
-GIT_USER=tu_usuario yarn deploy
-```
+          ```bash
+          > prueba-docusaurus@0.0.0 start
+          > docusaurus start
 
-## 🎯 Ejecución del servidor local
-Después de la instalación, en tu **terminal** escribe:
+          [INFO] Starting the development server...
+          [SUCCESS] Docusaurus website is running at: http://localhost:3000/pruebaDocusaurus/
 
-```bash
-npm start
-```
+          √ Client
+            Compiled successfully in 996.50ms
 
-Se van a desplegar varios mensajes. Al final, deberías ver:
+          client (webpack 5.98.0) compiled successfully
+          ```
 
-```bash
-> prueba-docusaurus@0.0.0 start
-> docusaurus start
+      Automáticamente se desplegará la página en tu navegador. 
 
-[INFO] Starting the development server...
-[SUCCESS] Docusaurus website is running at: http://localhost:3000/pruebaDocusaurus/
+        Esto inicia un servidor de desarrollo local.  Verás los cambios en tiempo real mientras editas.
 
-√ Client
-  Compiled successfully in 996.50ms
-
-client (webpack 5.98.0) compiled successfully
-```
-
-Automáticamente se desplegará la página en tu navegador. 
-
-### Páginas prueba
-Docusaurus estará disponible en [`http://localhost:3000/pruebaDocusaurus`](http://localhost:3000/pruebaDocusaurus) 🚀.
+        En este caso, Docusaurus estará disponible en [`http://localhost:3000/pruebaDocusaurus`](http://localhost:3000/pruebaDocusaurus) 🚀.
 
 Ahorita para acceder a las páginas prueba, debes seleccionar **Tutorial** en la barra de navegación.
- 
-## 🔧 Actualización de la documentación
-Dentro de la carpeta docs puedes encontrar los archivos de las páginas `.md` o `.mdx`, los cuales deberían de ser apartados de la documentación y en la carpeta. Las actualizaciones se hacen con commits siguiendo los siguientes pasos.
+       
 
-### Añadir todos los archivos
-```bash
-git add -A
-```
+    *   **Añadir, Confirmar y Subir Cambios:**
+          * Después de hacer los cambios necesarios, se hace push como en cualquier repo:
+        ```bash
+        git add -A
+        git commit -m "Una descripción clara de mis cambios"
+        git push
+        ```
 
-### Agregar título al commit
-```bash
-git commit -m "Esto es un mensaje ejemplo"
-```
+    *   **Crear un Pull Request (PR):**
+        *   Crea un Pull Request desde tu rama (`mi-nueva-caracteristica`) hacia la rama principal (`main` o `master`).
+        *   Describe los cambios en el PR.  *Sé detallado*.
+        *   Solicita revisiones a otros miembros del equipo
 
-### Enviar el commit al repositorio remoto
-```bash
-git push
-```
 
-### Hacer el deploy de tus cambios
-```bash
-GIT_USER=tu_usuario yarn deploy
-```
+    *   **Merge:**
+        *   Una vez que el PR sea aprobado, la rama será fusionada con main. Una vez hecho esto, automaticamente se desplegarán los cambios en la página de github donde todos lo podrán consultar.
+
+
+
 
 ## ✅ Conclusión
 ¡Ahora tienes Docusaurus instalado y corriendo! 🎉 Puedes interactuar con la documentación modificando los archivos en `docs`.
+
+Docusaurus es una herramienta que pensamos que sería buena idea utilizar para la documentación, pues tiene control de versiones y esta hecha con react (lo cual nos abre la puerta a muchas opciones, incluyendo una barra de búsqueda global). 
