@@ -12,9 +12,16 @@ Describe el objetivo de la validación, y el proceso o actividad en el cual se r
 
 ## Criterios de aceptación
 
+### Grupo de criterios relacionados
+
 - [ ] Criterio de aceptación 1.
 - [ ] Criterio de aceptación 2.
 - [ ] Criterio de aceptación 3.
+
+## Artefactos en los se utiliza
+
+- Nombre del documento: [Link si aplica](https://example.com/)
+- Documento 2: [Link](https://example.com/)
 
 ## Control de cambios
 

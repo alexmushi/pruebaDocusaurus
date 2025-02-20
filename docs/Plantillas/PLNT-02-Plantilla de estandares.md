@@ -10,20 +10,20 @@ slug: /plnt-02-plantilla-de-estandares
 
 Describe el objetivo del estándar, su importancia y beneficio dentro del departamento de software.
 
-## Documentos a los que aplica
+## Artefactos en los que aplica
 
 - Nombre del documento: [Link si aplica](https://example.com/)
 - Documento 2: [Link](https://example.com/)
 
 ## Estándares
 
-### Estándar 1:
+### Estándar 1
 
 1. **Requerimiento 1** - (Requerimiento o componente necesario para iniciar el proceso).
 2. **Requerimiento 2**.
 3. **Requerimiento 3**.
 
-### Estándar 2:
+### Estándar 2
 
 1. **Requerimiento 1**.
 2. **Requerimiento 2**.

@@ -1,16 +1,16 @@
 ---
-title: PLNT-03-Plantilla de manuales
-sidebar_label: PLNT-03-Plantilla de manuales
-slug: /plnt-03-plantilla-de-manuales
+title: PLNT-03-Plantilla de guias/manuales
+sidebar_label: PLNT-03-Plantilla de guias/manuales
+slug: /plnt-03-plantilla-de-guias/manuales
 ---
 
-# PLNT-03-Plantilla de manuales
+# PLNT-03-Plantilla de guias/manuales
 
 ## Propósito
 
-Describe el objetivo del manual dentro del departamento de software.
+Describe el objetivo del manual o guía dentro del departamento de software.
 
-## Pasos a seguir
+## Procedimiento
 
 1. **Paso 1:**
    Contenido del primer paso a seguir
